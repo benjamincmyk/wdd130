@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mountain Rafting | Contact">
+    <meta name="author" content="Benjamin Simeon">
+    <title>Mountain Rafting | Contact</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=distance,mail,smartphone" />
+    
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+    <!-- Mulish text-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Bebas Neue - Heading-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <img class="img1"  src="images/logo3_200.png" alt="logo">
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container-c">
+            <h1>Reach our team</h1>
+            <p> We love questions and feedback and we're always happy to help! Here are some ways to contact us.</p>
+        </div>
+        <section class="container-h">
+            
+            <article>
+                <h2>Headquarters</h2>
+                <h3>Boston, United States</h3>
+                <div class="a">
+                    <span class="material-symbols-outlined">distance</span>
+                    <p>177 Huntington Ave Ste 1703</p>
+                
+                    <span class="material-symbols-outlined">mail</span>
+                    <p>contact.usmrafting.com</p>
+                
+                    <span class="material-symbols-outlined">smartphone</span>
+                    <p>+1-617-555-0108</p>
+                </div>
+                
+            </article>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093746!2d144.9537363153168!3d-37.81627927975132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43b1234567%3A0x123456789abcdef!2sEjemplo+de+Ubicaci%C3%B3n!5e0!3m2!1ses!2sco!4v1616783228667!5m2!1ses!2sco" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>           
+        </section>
+        <div class="employee">
+            <section class="employe 1">
+                <img src="images/sara.jpg" alt="Sara">
+                <article>
+                    <h3>Sara Mendoza</h3>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <p>contact.usmrafting.com</p>
+                    <span class="material-symbols-outlined">
+                        smartphone
+                        </span>
+                    <p>+1-617-555-0108</p>
+                </article>              
+            </section>
+            <section class="employe 2">
+                <img src="images/lucas.jpg" alt="Lucas">
+                <article>
+                    <h3>Lucas Villalobos</h3>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <p>contact.usmrafting.com</p>
+                    <span class="material-symbols-outlined">
+                        smartphone
+                        </span>
+                    <p>+1-617-555-0108</p>
+                </article>  
+            </section>
+            <section class="employe 3">
+                <img src="images/amanda.jpg" alt="Amanda">
+                <article>
+                    <h3>Amanda Ramirez</h3>
+                    <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                    <p>contact.usmrafting.com</p>
+                    <span class="material-symbols-outlined">
+                        smartphone
+                        </span>
+                    <p>+1-617-555-0108</p>
+                </article>  
+            </section> 
+        </div>    
+        <div class="form">
+            <h2>Send Us a Message</h2>
+            <p>Send us a message and we'll respond within 24 hours</p>
+            <form> 
+                <!--User´s name-->    
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <!--User´s email-->   
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <!--Purpose of Message-->
+                <label>Purpose of Message:</label>
+                <div class="container-form">
+                    <div>
+                        <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
+                        <label for="general-inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                        <label for="reservation-question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                        <label for="website-suggestion">Website Suggestion</label><br>
+                    </div>
+                </div><br>
+                <!--User´s message-->   
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <!--Subscription--> 
+                <div class="container-form">  
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div><br>
+                <!--Submit button-->   
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2024 Mountain Rafting - Benjamin Simeon</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktok-icon.png" alt="Tiktok">
+            </a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
